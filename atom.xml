@@ -17,25 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://liuyang-z.github.io/2021/08/24/hello-world/"/>
-    <id>https://liuyang-z.github.io/2021/08/24/hello-world/</id>
-    <published>2021-08-24T13:47:23.967Z</published>
-    <updated>2021-08-24T13:47:23.967Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="note-类型测试"><a href="#note-类型测试" class="headerlink" title="note 类型测试"></a>note 类型测试</h2><div class="note primary no-icon">            <p>支持的 note 类型有 default primary info success warning danger no-icon</p>          </div><h2 id="引用测试"><a href="#引用测试" class="headerlink" title="引用测试"></a>引用测试</h2><blockquote class="blockquote-center">            <i class="fa fa-quote-left"></i>            <p><strong>there are test words</strong></p>            <i class="fa fa-quote-right"></i>          </blockquote><h2 id="Mermaid-流程图测试"><a href="#Mermaid-流程图测试" class="headerlink" title="Mermaid 流程图测试"></a>Mermaid 流程图测试</h2><pre class="mermaid" style="text-align: center;">            stateDiagram-v2            [*] --> Activestate Active {    [*] --> NumLockOff    NumLockOff --> NumLockOn : EvNumLockPressed    NumLockOn --> NumLockOff : EvNumLockPressed    --    [*] --> CapsLockOff    CapsLockOff --> CapsLockOn : EvCapsLockPressed    CapsLockOn --> CapsLockOff : EvCapsLockPressed    --    [*] --> ScrollLockOff    ScrollLockOff --> ScrollLockOn : EvScrollLockPressed    ScrollLockOn --> ScrollLockOff : EvScrollLockPressed}          </pre><h2 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>  <span class="title">t_main</span> <span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">utsname</span>  <span class="title">name</span>;</span></span><br><span class="line"></span><br><span class="line">    uname(&amp;name);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;sysname  : %s\n&quot;</span>, name.sysname);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;nodename : %s\n&quot;</span>, name.nodename);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;release  : %s\n&quot;</span>, name.release);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;version  : %s\n&quot;</span>, name.version);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;machine  : %s\n&quot;</span>, name.machine);</span><br><span class="line"></span><br><span class="line">    Lw_TShell_Create(STDOUT_FILENO, LW_OPTION_TSHELL_PROMPT_FULL | </span><br><span class="line">                                    LW_OPTION_TSHELL_VT100);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span>  (<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="默认" scheme="https://liuyang-z.github.io/categories/%E9%BB%98%E8%AE%A4/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>SATA Phy Layer &amp; Link Layer</title>
     <link href="https://liuyang-z.github.io/2021/08/24/SATA-Phy-Layer-Link-Layer/"/>
     <id>https://liuyang-z.github.io/2021/08/24/SATA-Phy-Layer-Link-Layer/</id>
@@ -53,6 +34,25 @@
     
     
     <category term="SATA" scheme="https://liuyang-z.github.io/tags/SATA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://liuyang-z.github.io/2021/08/22/hello-world/"/>
+    <id>https://liuyang-z.github.io/2021/08/22/hello-world/</id>
+    <published>2021-08-22T05:16:04.000Z</published>
+    <updated>2021-08-24T14:03:43.758Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="note-类型测试"><a href="#note-类型测试" class="headerlink" title="note 类型测试"></a>note 类型测试</h2><div class="note primary no-icon">            <p>支持的 note 类型有 default primary info success warning danger no-icon</p>          </div><h2 id="引用测试"><a href="#引用测试" class="headerlink" title="引用测试"></a>引用测试</h2><blockquote class="blockquote-center">            <i class="fa fa-quote-left"></i>            <p><strong>there are test words</strong></p>            <i class="fa fa-quote-right"></i>          </blockquote><h2 id="Mermaid-流程图测试"><a href="#Mermaid-流程图测试" class="headerlink" title="Mermaid 流程图测试"></a>Mermaid 流程图测试</h2><pre class="mermaid" style="text-align: center;">            stateDiagram-v2            [*] --> Activestate Active {    [*] --> NumLockOff    NumLockOff --> NumLockOn : EvNumLockPressed    NumLockOn --> NumLockOff : EvNumLockPressed    --    [*] --> CapsLockOff    CapsLockOff --> CapsLockOn : EvCapsLockPressed    CapsLockOn --> CapsLockOff : EvCapsLockPressed    --    [*] --> ScrollLockOff    ScrollLockOff --> ScrollLockOn : EvScrollLockPressed    ScrollLockOn --> ScrollLockOff : EvScrollLockPressed}          </pre><h2 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>  <span class="title">t_main</span> <span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">utsname</span>  <span class="title">name</span>;</span></span><br><span class="line"></span><br><span class="line">    uname(&amp;name);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;sysname  : %s\n&quot;</span>, name.sysname);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;nodename : %s\n&quot;</span>, name.nodename);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;release  : %s\n&quot;</span>, name.release);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;version  : %s\n&quot;</span>, name.version);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;machine  : %s\n&quot;</span>, name.machine);</span><br><span class="line"></span><br><span class="line">    Lw_TShell_Create(STDOUT_FILENO, LW_OPTION_TSHELL_PROMPT_FULL | </span><br><span class="line">                                    LW_OPTION_TSHELL_VT100);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span>  (<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="默认" scheme="https://liuyang-z.github.io/categories/%E9%BB%98%E8%AE%A4/"/>
+    
     
   </entry>
   
