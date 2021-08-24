@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>脚手�?</title>
+  <title>脚手架</title>
   
-  <subtitle>- 来自赵工的描�?</subtitle>
+  <subtitle>’- 来自赵工的描述‘</subtitle>
   <link href="https://hooowl.com/atom.xml" rel="self"/>
   
   <link href="https://hooowl.com/"/>
